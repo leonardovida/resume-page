@@ -1,278 +1,228 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Leonardo Vida",
+  initials: "LV",
+  location: "Amsterdam, the Netherlands, CET",
+  locationLink: "https://www.google.com/maps/place/Amsterdam",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Full Stack Data Engineer biased on building products that use (a lot of) data",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Data Engineer, I single-handedly built data platforms for enterprise clients. Recently, I led a team of 5 for ~6 months in a big corporate, successfully delivering the product we were building and aim to going back doing so in the future. Currently, I work as consultant for companies in Netherlands and I mostly use Python, HCL and TypeScript.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/2588282?v=4",
+  personalWebsiteUrl: "https://leonardovida.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "lleonardovida@gmail.com",
+    tel: "+31621949806",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/leonardovida",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/leonardovida/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/leonardojvida",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Utrecht University",
+      degree: "M.Sc. in Computational Science: Applied Data Science; GPA: 8.1/10 (Cum laude)",
+      start: "2020",
+      end: "2022",
+    },
+    {
+      school: "Maastricht University",
+      degree: "B.Sc. in Economics: International Economics; GPA: 8.2/10.0",
+      start: "2014",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "DBC",
+      link: "https://databuildcompany.com",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Senior Data Engineer Consultant",
+      logo: [],
+      start: "Dec 2023",
+      end: "Present",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "For a large group in the SME accounting sector, developed the digital transformation strategy with a focus on LLM use cases, managing the relationship with c-level and leading the development of a data platform to enable core and moonshot use cases. Technologies: Python, TypeScript, HCL",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Prima assicurazioni",
+      link: "https://prima.it",
+      badges: ["Remote"],
+      title: "Senior Data Engineer",
+      logo: [],
+      start: "Jun 2023",
+      end: "Nov 2023",
+      description: (
+        <>
+          <li>
+            Architected and supported the development of a self-service 
+            data platform based on data mesh principles on AWS, orchestrated 
+            by Argo workflows, using Airbyte for ingestion, and Databricks plus 
+            dbt for compute and transformation. 
+          </li>
+          <li>
+            Developed and optimized batch and 
+            streaming PySpark ETL pipelines, frameworks and libraries (Python and Rust). 
+          </li>
+          <li>
+            Defined data product, contract and permission specifications across the company 
+            and supported roadmap definition.
+          </li>
+        </>
+      ),
+    },
+    {
+      company: "Brenntag",
+      link: "https://brenntag.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Senior Data Engineer",
+      logo: [],
+      start: "Oct 2022",
+      end: "May 2023",
+      description: (
+        <>
+          <li>
+            Led a team of five in architecting and developing a data platform
+            using AWS native services and Airflow; managed the team
+            quarterly plannings and led all the rituals.
+          </li>
+          <li>
+            Orchestrated PySpark data pipelines to connect all subsidiaries
+            in EMEA and North America and produce source-oriented foundational
+            Data Products to feed machine learning use cases.
+          </li>
+          <li>
+            Spearheaded development of Python libraries for data processing, 
+            data quality monitoring, and logging (streaming and batch) and 
+            supported the transition to a new global AWS organization 
+            designing company-wide frameworks for all Data Products.
+          </li>
+        </>
+      ),
+    },
+    {
+      company: "Beerwulf / Heineken",
+      link: "https://www.beerwulf.com",
+      badges: [],
+      title: "Data Engineer",
+      logo: [],
+      start: "Aug 2021",
+      end: "Sep 2022",
+      description: (
+        <>
+          <li>
+            Transitioned core data pipelines in Azure (Databricks and ADF)
+            from batch to real-time streaming (Kafka and Debezium);
+            enhanced data observability library and introduced 
+            automated data tests.
+          </li>
+          <li>
+            Architected and deployed an MLOps platform on MLFlow and 
+            created ML models to forecast churn, LTV and predict demand; 
+            improved demand forecasting accuracy by approximately 40%.
+          </li>
+          <li>
+            Integrated into the existing data infrastructure a new B2B2C 
+            marketplace and direct-to-consumer product, developing
+          </li>
+        </>
+      ),
+    },
+    {
+      company: "Utrecht University",
+      link: "https://www.uu.nl",
+      badges: [],
+      title: "Research Engineer",
+      logo: [],
+      start: "Aug 2020",
+      end: "Jul 2021",
+      description: (
+        <>
+          <li>
+          Led the engineering of a research project, finetuned transformers models 
+          with €100k GCP grant and created historicized models, created API to extract 
+          the entire Delpher collection of the Dutch national library, developed 
+          ETL pipelines to extract, OCR, chunk and score texts.
+          </li>
+          <li>
+          Developed back-end security of OSS to automate systematic reviews (asreview)
+          having more than 140,000 downloads on PyPi and OSS spatial data 
+          package (osmenrich) for sensitive data enrichment.
+          </li>
+        </>
+      ),
     },
   ],
   skills: [
-    "JavaScript",
+    "Python",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
+    "Next.js",
+    "SQL",
+    "Terraform HCL/Docker/Kubernetes",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "R",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Talent Copilot",
       techStack: [
         "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Python",
+        "OpenAI",
+        "Custom LLM", 
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "A copilot for companies to improve the time to best talent for a given position. It uses a LLM pipeline to understand the job description, resume and company, and then it scores candidates, write rejection/ confirmation emails and much more, all under human supervision.",
+      logo: [],
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "talentcopilot",
+        href: "https://dbc-cv-copilot.vercel.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Nearit",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project",
+        "Python",
+        "Webflow",
+        "GMaps API"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "A website to find list of places to visit in a city, recommended by locals, to be used directly in Google Maps",
+      logo: [],
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "nearit.io",
+        href: "",
       },
     },
     {
-      title: "Evercast",
+      title: "Younico",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
+        "Side Project",
         "React",
-        "Node.js",
-        "GraphQL",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "A university platform to match students with an idea with other students that want to work on a project.",
+      logo: [],
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "younico",
+        href: "",
       },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
