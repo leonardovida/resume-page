@@ -81,7 +81,7 @@ export const RESUME_DATA = {
         <li>Refactored old in-house config-driven ETL package and developed supporting libraries for self-service data platform</li>
         <li>Engineered petabyte-scale ETL processes in PySpark focusing on data quality and data pipeline efficiency</li>
         <li>Implemented agile product management, boosting efficiency and team morale</li>
-        <li>Defined data product, contract and permission specifications across the company and supported team's roadmap definition</li>
+        <li>Defined data product, contract and permission specifications across the company and supported team&apos;s roadmap definition</li>
         </>
       ),
     },
